@@ -1,0 +1,75 @@
+{
+  "tubeFoundations": [
+    {
+      "id": 1,
+      "name": "T1",
+      "description": "Referente sondagem SP-01",
+      "diameter": 1.2,
+      "length": 3.0,
+      "twistingMoment": 6.3,
+      "bendingMoment": 14.2,
+      "horizontalEffort": 2.0
+    }
+  ],
+  "panels": [
+    {
+      "id": 1,
+      "name": "Painel de Mensagens Variáveis PMV",
+      "width": 6,
+      "height": 1.5,
+      "weight": 400
+    }
+  ],
+  "winds": [
+    {
+      "id": 1,
+      "region": "SP",
+      "description": "Vento em Marília SP",
+      "force": 40
+    }
+  ],
+  "porticos": [
+    {
+      "id": 1,
+      "name": "Semi pórtico Via Dutra",
+      "description": "A ser instalado na Rod. Pres. Dutra, Km 45+400m.",
+      "semi": true,
+      "porthole": 8,
+      "height": 7
+    }
+  ],
+  "soilSounding": [
+    {
+      "id": 1,
+      "description": "Sondagem SPT via dutra",
+      "point": "SP-01",
+      "address": "Via dutra Km 45+400m",
+      "layers": [
+        {
+          "depth": 1,
+          "SPT": 3
+        },
+        {
+          "depth": 2,
+          "SPT": 3
+        },
+        {
+          "depth": 3,
+          "SPT": 4
+        },
+        {
+          "depth": 4,
+          "SPT": 5
+        },
+        {
+          "depth": 5,
+          "SPT": 7
+        },
+        {
+          "depth": 6,
+          "SPT": 30
+        }
+      ]
+    }
+  ]
+}
